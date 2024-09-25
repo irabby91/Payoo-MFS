@@ -8,6 +8,7 @@ document.getElementById('login-btn').addEventListener('click', function (event) 
 
     if(phoneNumber==='01604' && pinNumber==='9285'){
         console.log('Logging In');
+        document.location.href="/homepage.html";
     }
     else{
         alert('You have inputed wrong Phone or Pin');
